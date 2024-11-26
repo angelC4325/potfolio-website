@@ -83,3 +83,12 @@ footer{
     width: 200px;
     height: 200px;
 }
+main a{
+ background-color: #33658A;
+ color: #f4f4f4;
+ text-decoration: none;
+ padding: 10px;
+ border-radius: 5px;
+ margin-top: 40px;
+
+}
