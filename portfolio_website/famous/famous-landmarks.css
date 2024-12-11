@@ -1,0 +1,39 @@
+*,
+::before,
+::after{
+margin: 0;
+}
+.title{
+    color: blue;
+    font-size: 4em;
+    background-color: #ebebeb;
+    text-align: center;
+}
+img{
+    height: 150px;
+    float: left;
+    border-radius: 25px;
+    max-width: 150px;
+    margin:10px ;
+}
+.section{
+    width: 45%;
+    border-radius: 25px;
+  background:white;
+  padding: 20px;
+ float: left;
+ margin: 5px;
+}
+.section:nth-child(odd){
+    clear:left
+}
+.page{
+background-color: #ccc;
+padding: 5%;
+}
+
+.page::after, .page::before{
+display: block;
+clear: both;
+content: " "
+}
