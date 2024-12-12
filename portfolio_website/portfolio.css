@@ -92,3 +92,7 @@ main a{
  margin-top: 40px;
 
 }
+.logo a{
+    color: #33658A;
+    text-decoration: none;
+}
