@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student portfolio show case</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mrs+Sheppards&display=swap" rel="stylesheet">
+    <style>
+        .options{
+            display: flex;
+        }
+        .options .sec{
+            margin-top: 50px;
+        }
+        .sec p{
+           margin-bottom: 10px; 
+        }
+        
+            .hiddenText {
+            position: relative;
+            border-bottom: 1px dotted black;
+            }
+            .hiddenText .text {
+            visibility: hidden;
+            width: 120px;
+            background-color: white;
+            color: black;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+            position: absolute;
+            z-index: 1;
+            }
+            .hiddenText:hover .text {
+                visibility: visible;
+               
+                bottom: 20%;
+                left: 10%;
+                height: 60%;
+                margin:auto;
+                width: auto;
+                
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="index.html">Angel Coronel</a></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="logo "><h1 class="mrs-sheppards-regular">Angel  Coronel Gambino </h1></div>
+        <div class="sec lat hiddenText"><h1>Bienvenidos a Mi Portapapeles<spam class="text">welcome to my portfolio</spam> </h1></div>
+        <div class="sec"><h3>coding student|web developer</h3>
+        <h4></h4>
+        </div>
+        <div class="options">
+            <div class="sec">
+                <h2>My projects</h2>
+                <p>This is what I've been working on for the entire year of coding.</p>
+                <a href="projects.html">projects</a>
+            </div>
+            <div class="sec">
+                <h2>My resume</h2>
+                <p>This is a brief description of what you need to know about me.</p>
+                <a href="resume.html">Resume</a>
+            </div>
+            <div class="sec">
+                <h2>This is my contact information</h2>
+                <p>You can use the follow form to contact me for any question or concern that you might have about me.</p>
+                <a href="contact.html">contact</a>
+            </div>
+        </div>
+    </main>
+    <footer><p>&copy; 2024 Angel 2oronel. All rigths reserved.</p></footer>
+</body>
+</html>
